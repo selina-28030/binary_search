@@ -31,7 +31,7 @@ def find_smallest_positive(xs):
             if funct == None:
                 return None
             else:
-                return funct+mid+1
+                return funct + mid + 1
     else:
         if length ==1:
             return 0
