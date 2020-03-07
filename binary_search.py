@@ -79,7 +79,7 @@ def count_repeats(xs, x):
             if funct == None:
                 return None
             else:
-                return func+middle+1
+                return funct+middle+1
         else:
             return first_occ(xs[:middle], x)
 
